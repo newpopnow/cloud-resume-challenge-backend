@@ -12,7 +12,8 @@ jobs:
           use-installer: true
       - uses: aws-actions/configure-aws-credentials@v2
         with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-access-key-id: ASIATXCJIVYSVE5CXTEW
+          aws-secret-access-key: j5EIGouMNJSVQgcKKI6S3x3WB3v05TDimkK6np11
+          aws-session-token: IQoJb3JpZ2luX2VjEEoaDmFwLXNvdXRoZWFzdC0xIkcwRQIgKWLWddY15A78HRjFzUrhOo4tkN1rb5ujaPDfOfz02IoCIQC/E+ZjP8fkR9/nh2biTA3bi+r7SUFamHflLleMCOPVhSrpAghTEAAaDDI1NTcwNDIxNTA3NyIM/KCaLl0p2Wakda7yKsYC7hP8GHgnauLSPrJZizblgs2lAm4jgJM8IlNEKEg7qOZeYDr7KDxbEoI3aI2/wos6J6s8L79d2kYmsO2EbwpLdT7LE9mdlq/JfNFeZyQbUyrKVHLGNe+syVbhBSMY5MVtd8m9Ap48L3Ta9y03qZ1aiLBbHTljUL2aV7jKqeNx0LAQkZQGoxdOoOAfMQgP53IugEplCPxGnJRF28bxAgYmU0O8ymBZ41aOXzwr8Ww/EzXDIH78W2WufAu1ck7F9lyok3Tj/BGU5i0Q52/xJYNLlp0skONJy+N9WE5lZbXHAMivPgynk79yqbQPCEgOmUXmThUuQYd8P4jdLmUKHqUJ4pj19etKoKlVkuuw5Fapafbw70aNwtaBcTz3C0KpMmm6WPeEBymmmbr9LpdDDoHCxtMehqihJmQGIdCPSgKwNzbJH2Q886owipLErwY6pwFcbx34wmG2I7txp3D6pnzLP1N/oIDiWANPzQsYGMEpABuP6TSdhOnaQ3N1gSQVvEnAN1XNyuOdHijvffcvHBzFl2nbDlbv5W0PiEeOaMoG5WYVxzl5Zg2pj2EAyhERsTnF0Z3zMT6IpGjQfl2xPV3wwVGLOlfCAdCK4p7w3dMJs+5tf6EY8WnKZlMoR6397HwVMDlxyYKwxjn8kzageLGRupv3E+qM0A==
           aws-region: ap-southeast-1
       - run: san deploy --no-confirm-changeset
