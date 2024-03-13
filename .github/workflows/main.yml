@@ -16,4 +16,4 @@ jobs:
           aws-secret-access-key: 'J2JtlLXjow3m95YyTCMS1rr7QKJvoKqbOvc6lOKQ'
           aws-session-token: 'IQoJb3JpZ2luX2VjEEwaDmFwLXNvdXRoZWFzdC0xIkcwRQIhAMmVlH8YVHbddIMhQ0QT77ImcaMGpGGfbod4CPn+Uu1rAiBIZW6f0AuQ3ZFB1MoFfNkrQoTyrcodMpHiuC6NOOUWECrpAghVEAAaDDI1NTcwNDIxNTA3NyIMFScSMrHZqDj/ySPnKsYCcbCx1QD99rrhxtlobP5Dom4Wmb5LWJGyybFz1Qu7nRws4pahZ6Ft6zDUaWM/Y2dRhC2qaw3xro0lR/qYFMKBviEWbkEV2W261LXI8wjpy7m3kJA49fdiT7m6RzrxM5302xV6dn00+e7EyVVn5Ps/5BdYWrw4FMg+VQ2shkpJqzHhJq20CJNYRODeH1WJMIMwfN2o9sHF54XDRgOfhIZCWrUUAjvBLZQx3vwPLFfg5P0p86D4ePxPrOLZ7cJw9gp1OH6htGyT6MQvN3+G1QIkvwj2DlO6bv6VDcVQyoumYcmip4nr5c2xrOI2sklYjbq7eLtTX+dG/b08pfmGQcjxga/S4PRn3KMoDUg1SlFBW/qRRRbsQFspy1fp+KZeQ94A8SoNpunCZXfEENHNZP0QK80NSoSrUGjLutIsvNlE+nBQiwC2k0Ewsr7ErwY6pwESrGhzLE6K8vLxKsq4S3x96gpxlEz8pEfEF6o5gsS/r9gCLCImwpy8EPXsvftY03vzin8sp55PYaowcVosGVL6P27RTTKyUUEtPHrak0JrVDLYhzgD8vOHFyX0ArjFzj4sn14hSnJKbt4rmiPKFeBnBzR7OlYicdXz5frbjWa0lDliZnKPj82nD7GeaA+k1P9vC/jl6dOK3UC7QOwa+m//0NHJ+cpjfQ=='
           aws-region: ap-southeast-1
-      - run: san deploy --no-confirm-changeset
+      - run: sam deploy --no-confirm-changeset
